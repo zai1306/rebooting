@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #e6e6e6;
+}
+
+body {
+  background-color: #111;
+  scroll-behavior: smooth;
+}
+header {
+  height: 550px;
+  background: #111;
+}
+nav {
+  height: 80px;
+}
+
+nav img {
+  width: 130px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+.banner {
+  height: 500px;
+  border: 1px solid snow;
+}
+.movies {
+  padding: 20px 30px 20px 30px;
+}
+.movie {
+  /* height: 120px; */
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+}
+.movie::-webkit-scrollbar {
+  display: none;
+}
+
+.trending-movies {
+  height: 220px;
+  width: 200px;
+  margin: 5px 5px;
+}
+
+.trending-movies img {
+  height: 150px;
+  /* object-fit: contain; */
+  width: 120px;
+  transition: all 0.25s ease;
+}
+.trending-movies img:hover {
+  transform: scale(1.08);
+}

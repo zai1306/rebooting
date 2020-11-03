@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+form{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+form h3{
+    font-size: 25px;
+}
+
+.form-control{
+    display: flex;
+    align-items: center;
+
+}
+
+.form-control input{
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    width: 350px;
+    margin-top: 40px;
+    outline: none;
+}
+
+.form-control button{
+    height: 34px;
+    border-radius: 15px;
+    width: 80px;
+    margin-top: 40px;
+    outline: none;
+    margin-left: 10px;
+    border: none;
+    background-color: #3567;
+    transition: all .6s ease-in-out ; 
+}
+
+.form-control button:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+.grocery-container{
+    margin-top: 2rem;
+    display: flex;
+    transition: all .6s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    visibility: hidden;
+}
+.show-container{
+    visibility: visible;
+}
+
+.grocery-items{
+    margin: 10px auto 10px auto;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dlt, .edit{
+    border: none;
+    outline: none;
+}
+ion-icon{
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.clear-btn  {
+    justify-self: center;
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    font-size: 20px;
+    margin: auto;
+    color: #eeeeee;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.alert{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+
+}
+.alert-danger{
+    background-color: rgb(168, 54, 54);
+}
+
+.alert-success{
+    background-color: rgb(114, 197, 114);
+}
+
+.dlt{
+    width: auto;
+    height: auto;
+}

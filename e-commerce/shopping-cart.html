@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shopping-cart.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                A&Z
+                <br>
+                Shop
+            </div>
+            <nav class="menu-bar">
+                <button class="search">Search By Type</button>
+                <ul class="item-list">
+                    <li class="item" data-id="all">All</li>
+                    <li class="item" data-id="grocery">Groceries</li>
+                    <li class="item" data-id="shakes">Baverages</li>
+                    <li class="item" data-id="food">Food</li>
+                    <li class="item" data-id="electronics">Electronics</li>
+                    <li class="item" data-id="clothing">Clothing</li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section class="display-items">
+
+        </section>
+
+
+        <div class="cart">
+            <div class="cart-image">
+                <img src="basket.png" alt="basket" class="imagine">
+                <span class="count">0</span>
+            </div>
+
+            <div class="selected-items">
+                <h4 class="head">Items Added To Cart</h4>
+                <div class="cart-items">
+
+                </div>
+                <div class="total"> Total Amount: <span>0</span>
+                    <button class="toHide">X</button></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="shopping-cart.js"></script>
+</body>
+
+</html>

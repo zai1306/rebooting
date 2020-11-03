@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arham's Photography</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="unnamed.png.fdmdownload" rel="icon">
+
+</head>
+
+<body>
+    <section class="banner" id="home">
+        <header>
+            <a href="index.html" class="logo">M.Arham </a>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <div class="contentBox">
+                <h2>Arham's <br>Photography</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum quod, aliquid quas facilis
+                    praesentium, adipisci soluta placeat molestias nulla neque libero, dolor ipsam voluptas.
+                    Exercitationem mollitia illum officia architecto.
+                </p>
+                <a href="mailto:mansoorarham98@gmail.com">Meet Now</a>
+            </div>
+            <div class="imgBox">
+                <img src="unnamed.png.fdmdownload" alt="">
+            </div>
+        </div>
+        <ul class="sci" id="contact">
+            <li><a href="https://www.facebook.com/mansoor.arham/"><img src="facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/aksbalouch/"><img src="instagram.png" alt=""></a></li>
+            <li><a href="https://twitter.com/MansoorArhum"><img src="twitter.png" alt=""></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#photographs">Products</a></li>
+            <li><a href="#contact">Conatct</a></li>
+
+        </ul>
+
+        <section id="about">
+            <h1>Something About Me</h1>
+            <div class="conainer-wrapper">
+                <div class="container">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="IMG_20201021_112353.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h2>Content Writer</h2>
+                            <p>Writing is no more a hobby, but it is a professional skill these days... Good
+                                communication can play a vital role in the success of any enterprise. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="teacher.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h2>Teacher</h2>
+                            <p> One can not teach well until he enjoys accompanying his students. Teaching is not only
+                                about raising a nation but also transforming one's personality.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="box">
+                        <div class="imgBx">
+                            <img src="PSX_20201018_172658.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h2>Photographer </h2>
+                            <p>Beneath sorrows and grief, sceneries often help us to relieve and lighten up the mood. A
+                                better collection of photography can help you in improving memory. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="photographs">
+            <h1>Some of my clicks</h1>
+            <div class="container">
+                <a href="PSX_20201018_172057.jpg" data-lightbox="img1" class="img-holder">
+                    <img src="PSX_20201018_172057.jpg" alt=""></a>
+                <a href="IMG-20201018-WA0020-01.jpeg" data-lightbox="img2" class="img-holder"><img
+                        src="IMG-20201018-WA0020-01.jpeg" alt=""></a>
+                <a class="img-holder" href="IMG_20200908_132825_1.jpg"><img src="IMG_20200908_132825_1.jpg" alt=""></a>
+                <a class="img-holder" href="PSX_20201018_172327.jpg"><img src="PSX_20201018_172327.jpg" alt=""></a>
+                <a class="img-holder" href="PSX_20201018_172516.jpg"><img src="PSX_20201018_172516.jpg" alt=""></a>
+                <a class="img-holder" href="PSX_20201018_172658.jpg"><img src="PSX_20201018_172658.jpg" alt=""></a>
+
+                <a class="img-holder" href="download (1).png"><img src="download (1).png" alt=""></a>
+
+                <a class="img-holder" href="atm.jpg"><img src="atm.jpg" alt=""></a>
+                <a class="img-holder" href="jasmine.jpg"><img src="jasmine.jpg" alt=""></a>
+                <a class="img-holder" href="flower.jpg"><img src="flower.jpg" alt=""></a>
+                <a class="img-holder" href="flora.jpg"><img src="flora.jpg" alt=""></a>
+                <a class="img-holder" href="download.png"><img src="download.png" alt=""></a>
+
+                <a class="img-holder" href="flies.jpg"><img src="flies.jpg" alt=""></a>
+                <a class="img-holder" href="track.jpg"><img src="track.jpg" alt=""></a>
+
+                <a class="img-holder" href="meme.jpg"><img src="meme.jpg" alt=""></a>
+
+            </div>
+        </section>
+    </section>
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        })
+
+        AOS.init();
+
+    </script>
+
+</body>
+
+</html>
